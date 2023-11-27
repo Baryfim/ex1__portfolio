@@ -1,0 +1,87 @@
+.Package {
+    width: 100%;
+    min-height: 700px;
+}
+
+.Continer {
+    margin: 0 auto;
+    width: calc(100% - 160px);
+}
+
+
+.NamePackege {
+    padding-top: 70px;
+    margin-bottom: 20px;
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal; 
+}
+
+
+.packageDescription {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal; 
+}
+
+
+.LabelWhatUse {
+    padding-top: 50px;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-bottom: 20px;
+}
+
+.WhatGoingUse {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.BtnsBlock {
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.BtnsBlock button {
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+button.order {
+    background-color: #FFF;
+    border: none;
+    outline: none;
+    width: 120px;
+    height: 45px; 
+    padding-top: 2px;
+    font-family: "Freight Text";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal; 
+}
+
+button.ViewWorks {
+    border: none;
+    outline: none;
+    background: none;
+    color: #FFF;
+    font-family: "Freight Text";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal; 
+}

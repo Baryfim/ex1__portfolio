@@ -1,0 +1,4 @@
+.Continer {
+    width: calc(60vw - 200px);
+    margin: 0 auto;
+}

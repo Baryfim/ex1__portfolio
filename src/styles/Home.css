@@ -1,0 +1,38 @@
+.divide {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.infoContent {
+    width: 60%;
+    height: 100vh;
+}
+
+
+.packageBlock {
+    width: 40%;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.packageArea {
+    transition: ease .4s;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%;
+    height: 100vh;
+    background-color: #81978F;
+}
+
+.Window {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 40%;
+    height: 100vh;
+    background-color: #81978F;
+    transition: .3s ease;
+}

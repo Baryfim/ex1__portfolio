@@ -1,0 +1,91 @@
+.InfoBlock h1 {
+    color: #1c1c1c;
+    font-size: 48px;
+    font-style: normal;
+    font-family: "Freight Sans";
+    font-weight: 300;
+    line-height: 50px;
+}
+
+.TextHandler {
+    margin-top: 35px;
+    width: calc(100% - 10%);
+    color: #1c1c1c;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.Packegs {
+    margin-top: 80px;
+}
+
+.PackegElement {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+}
+
+.PackegElement__info h2 {
+    color: #1c1c1c;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+
+.PackegElement__info {
+    width: 65%;
+}
+
+.PackegElement__info p {
+    width: 100%;
+    margin-top: 10px;
+    color: #1c1c1c;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+
+.PackegElement__btns button {
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BaseBtn {
+    background-color: #81978F;
+    transition: .2s ease;
+}
+
+.BaseBtn:hover {
+    background-color: #81978Fb6;
+}
+
+.NoramlBtn {
+    background-color: #85A5D1;
+    transition: .2s ease;
+}
+
+.NoramlBtn:hover {
+    background-color: #85A5D1b6;
+}
+
+.ProBtn {
+    background-color: #DC8B6B;
+    transition: .2s ease;
+}
+
+.ProBtn:hover {
+    background-color: #dc8b6bb6;
+}

@@ -1,0 +1,33 @@
+.HeaderBlock {
+    margin: 70px 0;
+}
+
+.HeaderBlock__inner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.LogotypeHeader__block {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+.List__SocialNetworks {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.Item__SocialNetworks span {
+    color: #1c1c1c;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal; 
+}
